@@ -1,0 +1,54 @@
+
+Period= 2      #Trigger Period (To)
+TrigMode='DIS' #TRIG or DIS
+#ChA is Primary Trigger
+ChA = 'ON'     #ON or OFF
+A_width=0.0001
+A_delay=Period/10
+A_mode='ADJ'   #ADJ or TTL
+A_amp=3.3
+A_pol='NORM'   #NORM, COMP, or INV
+#ChB is U-coil Current trigger to AFG
+ChB = 'ON'
+B_width=0.001
+B_delay=0.0
+B_mode='TTL' 
+B_amp=5.00
+B_pol='NORM'
+#ChC is Camera Trigger
+ChC = 'ON'
+C_width=0.0004
+C_delay=0.0000
+C_mode='ADJ' 
+C_amp=3.3
+C_pol='NORM'
+ChD = 'OFF'
+D_width=0.0000001
+D_delay=0.0
+D_mode='TTL' 
+D_amp=3.3
+D_pol='NORM'
+ChE = 'OFF'
+E_width=0.0000001
+E_delay=0.0
+E_mode='TTL' 
+E_amp=3.3
+E_pol='NORM'
+ChF = 'OFF'
+F_width=0.0000001
+F_delay=0.0
+F_mode='TTL'
+F_amp=3.3
+F_pol='NORM'
+ChG = 'OFF'
+G_width=0.0000001
+G_delay=0.0
+G_mode='TTL'
+G_amp=3.3
+G_pol='NORM'
+ChH = 'OFF'
+H_width=0.0000001
+H_delay=0.0
+H_mode='TTL'
+H_amp=3.3
+H_pol='NORM'
