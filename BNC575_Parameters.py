@@ -8,14 +8,12 @@ A_delay=Period/10
 A_mode='ADJ'   #ADJ or TTL
 A_amp=3.3
 A_pol='NORM'   #NORM, COMP, or INV
-#ChB is U-coil Current trigger to AFG
 ChB = 'ON'
 B_width=0.001
 B_delay=0.0
 B_mode='TTL' 
 B_amp=5.00
 B_pol='NORM'
-#ChC is Camera Trigger
 ChC = 'ON'
 C_width=0.0004
 C_delay=0.0000
